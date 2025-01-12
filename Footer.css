@@ -1,0 +1,83 @@
+.footer {
+  background-color: #2C3E50;
+  color: #fff;
+  padding: 1rem 0;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
+.contact-details,
+.social-links,
+.newsletter {
+  flex: 1 1 30%;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.contact-details h4, 
+.social-links h4, 
+.newsletter h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.social-links a {
+  display: block; 
+  margin-bottom: 0.5rem;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #FF9800;
+  text-decoration: underline;
+}
+
+.newsletter {
+  text-align: left;
+}
+
+.newsletter-input {
+  width: calc(100% - 110px);
+  padding: 0.5rem;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.subscribe-btn {
+  padding: 0.5rem 1rem;
+  background-color: #FF9800;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.subscribe-btn:hover {
+  background-color: #E68900;
+}
+
+.footer-bottom {
+  margin-top: 1.5rem;
+  border-top: 1px solid #555;
+  padding-top: 1rem;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+
